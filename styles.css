@@ -1,12 +1,14 @@
 .banner{
     padding: 50px 140px;
-    align-items: center;
+    text-align: center;
     position: relative;
-    display: inline-block;
+    display: flex;
 
 }
 .cover-pic{
-    display: block;
+    display:flex;
+    position: relative;
+    margin: auto;
     max-width: 1300px;
     height: 600px;
     flex-shrink: 0;
@@ -20,7 +22,7 @@
     right: 531px;
     bottom: 383px;
     left: 530px;
-    color: black;
+    color: white;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
@@ -34,7 +36,7 @@
     right: 344px;
     bottom: 177px;
     left: 344px;
-    color: black;
+    color: white;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
@@ -45,6 +47,7 @@
 }
 .offer {
     text-align: center;
+    
 }
 .sale {
     color: #F00;
@@ -78,6 +81,57 @@
     width: 802.9px;
     height: 500px;
     flex-shrink: 0;
+}
+.party{
+    text-align: center;
+    margin-top: 70px;
+    position: relative;
+    
+}
+.party-pic{
+    position: relative;
+    display: block;
+    margin: auto;
+    max-width: 1300px;
+    height: 600px;
+    flex-shrink: 0;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.welcome-party{
+    position: absolute;
+    display: block;
+    top: 126px;
+    right: 552px;
+    bottom: 298px;
+    left: 126px;
+    max-width: 640px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+
+}
+.party-details{
+    position: absolute;
+    display: block;
+    top: 326px;
+    right: 497px;
+    bottom: 214px;
+    left: 126px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 650px;
+    padding: 5px;
+}
+
+.join-party{
+    position: absolute;
+    top: 430px;
+    right: 1050px;
+    bottom: 140px;
+    
+
 }
 
 
