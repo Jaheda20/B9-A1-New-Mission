@@ -138,16 +138,17 @@
 .year{
     position: absolute;
     top: 20%;
-    right: 20%;
+    right: 15%;
     display: flex;
     width: 300px;
     height: 420px;
     padding: 10px;
 
 }
-.party-name{
-    justify-content: space-around;
+
+.info{
+    margin: 100px;
+    padding: 130px;
+    border-radius: 10px;
+    background-color: antiquewhite;
 }
-
-
-
