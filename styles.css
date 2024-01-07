@@ -152,3 +152,14 @@
     border-radius: 10px;
     background-color: antiquewhite;
 }
+.info-container{
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 100px 300px;
+    gap: 10px;
+}
+b{
+    color: #F00;
+    
+}
