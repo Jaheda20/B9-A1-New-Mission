@@ -1,0 +1,49 @@
+.banner{
+    padding: 50px 140px;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+
+}
+.cover-pic{
+    display: block;
+    max-width: 1300px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+.banner-subtitle{
+    position: absolute;
+    top: 177px;
+    right: 531px;
+    bottom: 383px;
+    left: 530px;
+    color: black;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 5px;
+
+}
+.banner-title{
+    position: absolute;
+    top: 283px;
+    right: 344px;
+    bottom: 177px;
+    left: 344px;
+    color: black;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    padding: 5px;
+    margin-top: 0;
+}
+
+
+
+
